@@ -1,4 +1,4 @@
-function laCajaDePandora(numero){
+function laCajaDePandora(num){
     if (num % 2 === 0) {
         return num.toString(2);
     }else{
