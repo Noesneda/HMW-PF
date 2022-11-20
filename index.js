@@ -1,5 +1,4 @@
 
-
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
       let binario = numero.toString(2);
@@ -54,4 +53,3 @@ function Saludito() {
             foodFavorite: 'sushi',
         }
     }
-
