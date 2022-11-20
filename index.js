@@ -1,3 +1,5 @@
+ 
+
 
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
@@ -26,4 +28,13 @@ function Saludito() {
     Nacionalidad: "Argentina",
   };
 }
+
+   function noe() {
+        var obj = {
+            nombre: 'Noelia',
+            edad: '29',
+            nacionalidad: 'Argentina'
+        }
+        return obj;
+    };
 
