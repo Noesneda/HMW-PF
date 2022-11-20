@@ -12,6 +12,7 @@ function laCajaDePandora(num) {
 
 console.log(laCajaDePandora(2));
 console.log(laCajaDePandora(14));
+console.log(laCajaDePandora(17));
 
 function edd() {
   class obj {
