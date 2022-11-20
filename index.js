@@ -1,16 +1,22 @@
-function laCajaDePandora(num) {
-  if (num % 2 === 0) {
-    let number = num;
-    let binary = (num % 2).toString();
-    for (; num > 1; ) {
-      number = num / 2;
-      binary = (num % 2) + binary;
+
+function laCajaDePandora(numero) {
+    if (numero % 2 === 0) {
+      let binario = numero.toString(2);
+      return binario;
+    } else {
+      let hexadecimal = numero.toString(16);
+      return hexadecimal;
     }
-    return binary;
-  } else {
-    let mensajito = "No lo pude hacer. sorrynotsorry";
-    return mensajito;
   }
+  
+ function andres() {
+    let objeto = {
+        nombre: "Andy",
+        edad: 38,
+        nacionalidad: "Argentino"
+    }
+    
+    return objeto;
 }
 
 function Saludito() {
@@ -20,3 +26,4 @@ function Saludito() {
     Nacionalidad: "Argentina",
   };
 }
+
