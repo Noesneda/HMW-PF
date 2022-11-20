@@ -1,3 +1,22 @@
-function laCajaDePandora(numero){
-    // proximamente escribiremos codigo aqui
+function laCajaDePandora(num) {
+  if (num % 2 === 0) {
+    let number = num;
+    let binary = (num % 2).toString();
+    for (; num > 1; ) {
+      number = num / 2;
+      binary = (num % 2) + binary;
     }
+    return binary;
+  } else {
+    let mensajito = "No lo pude hacer. sorrynotsorry";
+    return mensajito;
+  }
+}
+
+function Saludito() {
+  return {
+    Nombre: "Ignacio Abait",
+    Edad: 22,
+    Nacionalidad: "Argentina",
+  };
+}
