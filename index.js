@@ -12,3 +12,11 @@ function laCajaDePandora(num) {
     return mensajito;
   }
 }
+
+function Saludito() {
+  return {
+    Nombre: "Ignacio Abait",
+    Edad: 22,
+    Nacionalidad: "Argentina",
+  };
+}
