@@ -1,5 +1,3 @@
- 
-
 
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
@@ -36,5 +34,14 @@ function Saludito() {
             nacionalidad: 'Argentina'
         }
         return obj;
+        
     };
 
+ let Alejandra = () => {
+      let obj = {
+         nombre: "Alejandra",
+         edad: 30,
+         nacionalidad: "Colombiana"
+      }
+      return obj;
+   }
