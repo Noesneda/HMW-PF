@@ -7,6 +7,15 @@ function laCajaDePandora(numero){
             binary =  (num % 2) + (binary);
         }
         return binary
-    }
+    };
+
+    function noe() {
+        var obj = {
+            nombre: 'Noelia',
+            edad: '29',
+            nacionalidad: 'Argentina'
+        }
+        return obj;
+    };
      
     
