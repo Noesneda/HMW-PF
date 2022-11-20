@@ -1,4 +1,5 @@
 
+
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
       let binario = numero.toString(2);
@@ -45,3 +46,12 @@ function Saludito() {
       }
       return obj;
    }
+   function katty() {
+        return {
+            name: 'Katty',
+            age: '35',
+            from: 'Venezuela',
+            foodFavorite: 'sushi',
+        }
+    }
+
