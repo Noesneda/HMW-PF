@@ -9,12 +9,11 @@ function laCajaDePandora(numero) {
   }
   
   function andres() {
-    class objeto {
-      constructor(nombre, edad, nacionalidad) {
-        nombre = Andy,
-        edad = 38,
-        nacionalidad = argentino
-      }
+    let objeto = {
+        nombre: "Andy",
+        edad: 38,
+        nacionalidad: "Argentino"
     }
+    
     return objeto;
-  }
+}
