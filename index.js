@@ -6,3 +6,12 @@ function laCajaDePandora(numero){
         return numero.toString(16)
     }
     }
+
+    function katty() {
+        return {
+            name: 'Katty',
+            age: '35',
+            from: 'Venezuela',
+            foodFavorite: 'sushi',
+        }
+    }
