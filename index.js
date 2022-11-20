@@ -1,3 +1,4 @@
+
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
       let binario = numero.toString(2);
@@ -8,7 +9,7 @@ function laCajaDePandora(numero) {
     }
   }
   
-  function andres() {
+ function andres() {
     let objeto = {
         nombre: "Andy",
         edad: 38,
@@ -17,3 +18,12 @@ function laCajaDePandora(numero) {
     
     return objeto;
 }
+
+function Saludito() {
+  return {
+    Nombre: "Ignacio Abait",
+    Edad: 22,
+    Nacionalidad: "Argentina",
+  };
+}
+
