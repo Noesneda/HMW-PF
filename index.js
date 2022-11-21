@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
       let binario = numero.toString(2);
@@ -68,3 +61,22 @@ function agos() {
     }
     return obj;
 }
+
+function edd() {
+  let obj = {
+    name: "Edd",
+    age: 45,
+    nationality: "Colombian",
+  };
+}
+return obj;
+
+function jesus() {
+  let obj = {
+    name: "jesus",
+    age: 33,
+    nationality: "Venezuela",
+  };
+}
+return obj;
+
