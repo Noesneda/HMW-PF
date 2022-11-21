@@ -1,18 +1,66 @@
-function laCajaDePandora(num) {
-  if (num % 2 === 0) {
-    let dec = [];
-    if (num <= 0) return false;
-    while (num > 0) {
-      dec.push(num % 2);
-      num = Math.floor(num / 2);
+function laCajaDePandora(numero) {
+    if (numero % 2 === 0) {
+      let binario = numero.toString(2);
+      return binario;
+    } else {
+      let hexadecimal = numero.toString(16);
+      return hexadecimal;
     }
-    return dec.reverse().join("");
   }
+  
+ function andres() {
+    let objeto = {
+        nombre: "Andy",
+        edad: 38,
+        nacionalidad: "Argentino"
+    }
+    
+    return objeto;
 }
 
-console.log(laCajaDePandora(2));
-console.log(laCajaDePandora(14));
-console.log(laCajaDePandora(17));
+function Saludito() {
+  return {
+    Nombre: "Ignacio Abait",
+    Edad: 22,
+    Nacionalidad: "Argentina",
+  };
+}
+
+   function noe() {
+        var obj = {
+            nombre: 'Noelia',
+            edad: '29',
+            nacionalidad: 'Argentina'
+        }
+        return obj;
+        
+    };
+
+ let Alejandra = () => {
+      let obj = {
+         nombre: "Alejandra",
+         edad: 30,
+         nacionalidad: "Colombiana"
+      }
+      return obj;
+   }
+   function katty() {
+        return {
+            name: 'Katty',
+            age: '35',
+            from: 'Venezuela',
+            foodFavorite: 'sushi',
+        }
+    }
+    
+function agos() {
+    var obj = {
+        nombre: 'Agostina',
+        edad: '26',
+        nacionalidad: 'Argentina'
+    }
+    return obj;
+}
 
 function edd() {
   let obj = {
@@ -22,3 +70,13 @@ function edd() {
   };
 }
 return obj;
+
+function jesus() {
+  let obj = {
+    name: "jesus",
+    age: 33,
+    nationality: "Venezuela",
+  };
+}
+return obj;
+
