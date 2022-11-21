@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 function laCajaDePandora(numero) {
     if (numero % 2 === 0) {
       let binario = numero.toString(2);
@@ -53,3 +59,12 @@ function Saludito() {
             foodFavorite: 'sushi',
         }
     }
+    
+function agos() {
+    var obj = {
+        nombre: 'Agostina',
+        edad: '26',
+        nacionalidad: 'Argentina'
+    }
+    return obj;
+}
