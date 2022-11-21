@@ -15,10 +15,10 @@ console.log(laCajaDePandora(14));
 console.log(laCajaDePandora(17));
 
 function edd() {
-  class obj {
-    constructor(name, age, nationality) {
-      (name = "Edd"), (age = 45), (nationality = "Colombian");
-    }
-  }
-  return obj;
+  let obj = {
+    name: "Edd",
+    age: 45,
+    nationality: "Colombian",
+  };
 }
+return obj;
